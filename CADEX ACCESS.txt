@@ -1,0 +1,15 @@
+SERVER 
+
+
+
+
+
+DATABASE 
+
+
+
+
+
+SUPERADMIN
+login cadex-africa@cadex.com
+password ACamer.@CDex2022

@@ -1,0 +1,351 @@
+/**
+PERSONNAL CSS FOR THE PROJECT
+*/
+
+#globalloader{
+  display: none;
+}
+
+.itembanner{
+  height: 255px;
+}
+
+.itembanner > .down-content{
+  margin-top: px;
+}
+
+.itembanner p{
+  margin-top: -11px;
+}
+
+.headerbanneritem{
+  height: 108px;
+  width: 412px;
+  background-size: cover;
+  margin-left: -40px;
+  margin-top: -40px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.commentbottomproduct{
+  position: absolute;
+  right: -49px;
+}
+
+.datenews{
+padding-bottom: 20px !important;
+padding-left: 20px !important;
+padding-top: 20px !important;
+}
+
+.datenews h6{
+  font-size: 13px;
+  color: #8c8cef;
+}
+
+.datadetail h6{
+  font-size: 13px;
+  color: #8c8cef;
+}
+
+.datadetail {
+  position: absolute;
+  right: 181px;
+}
+
+.paginationblock{
+  margin-left: 608px;
+}
+
+.page-item.active .page-link{
+  background-color: #456aa1;
+}
+
+.blockempty{
+  margin-bottom: 62px;
+  color: #666;
+  border: 1px solid #eee;
+  padding: 65px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.blockempty h4{
+  font-size: 19px;
+}
+
+.itemproduct{
+  cursor: pointer;
+}
+
+
+/*************************
+******* Contact CSS ********
+**************************/
+
+.contact-map {
+  width: 100%;
+  height: 385px;
+  margin-bottom: 70px
+}
+
+.contact-info .heading,
+.contact-form-new .heading {
+  text-transform: capitalize;
+}
+
+.contact-form-new .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-page{
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 15%);
+  background-color: #fff;
+  padding: 34px;
+  border-radius: 15px;
+}
+
+#contact-page
+.form-control::-moz-placeholder {
+color: #8D8D8D;
+}
+
+#contact-page .form-control {
+background-color: #fff;
+border: 1px solid #ddd;
+color: #696763;
+height: 46px;
+padding: 6px 12px;
+width: 100%;
+font-size: 16px;
+border-radius: 4px;
+box-shadow:inherit;
+}
+
+#contact-page #message {
+height:160px;
+resize:none;
+}
+
+#main-contact-form .btn-primary {
+margin-bottom: 15px;
+margin-top: 20px;
+}
+
+
+#contact-page .form-control:focus,
+#contact-page .form-control:hover {
+box-shadow: inherit;
+border-color: #df0000;
+}
+
+#contact-page .contact-info {
+padding: 0 20px;
+}
+
+#contact-page .contact-info address {
+margin-bottom: 40px;
+margin-top: -5px;
+}
+
+#contact-page .contact-info p {
+margin-bottom: 0;
+color: #696763;
+font-size: 16px;
+line-height: 25px;
+}
+
+.social-networks{
+overflow: hidden;
+text-align: center;
+}
+
+.social-networks ul {
+margin-top: -5px;
+padding: 0;
+display: inline-block;
+}
+
+.social-networks ul li {
+float: left;
+text-decoration: none;
+list-style: none;
+margin-right: 20px;
+}
+
+.social-networks ul li:last-child{
+margin-right: 0;
+}
+
+.social-networks ul li a {
+color: #999;
+font-size: 25px;
+}
+
+.contact-info .social-networks ul li a i{
+background: none;
+}
+
+.contact-info .social-networks ul li a:hover{
+color: #df0000;
+}
+
+.btncontact{
+  background-color: #456aa1 !important;
+}
+
+.contact-info h4{
+  margin-bottom: 15px !important;
+}
+
+/** END BLOCK CONTACT*/
+
+.modalclose{
+  border: none;
+  background-color: white;
+  font-size: 26px;
+}
+
+.contentmodal{
+  border-radius: 20px;
+  top: 30px;
+}
+
+.checkbookblock label{
+  font-size: 11px;
+  margin-top: 16px;
+}
+
+#signupform div, input, select{
+  font-size: 13px;
+}
+
+.blockinput{
+  margin-bottom: 10px;
+}
+.corecontent{
+margin-bottom: 100px;
+}
+.classwhatsapp{
+position: fixed;
+top: 80vh;
+height: 5vh;
+right: 10vh;
+z-index: 999;
+animation-name: whahsappicon;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes whahsappicon {
+0%   {top: 80vh;}
+25%  {top: 85vh;}
+50%  {top: 80vh;}
+100% {top: 85vh;}
+}
+.classwhatsapp button{
+border-radius: 50%;
+background-color: transparent;
+border: 1px solid #fff;
+}
+.classwhatsapp button:hover{
+border-radius: 50%;
+background-color: #fff;
+}
+.classwhatsapp  i{
+font-size: 75px;
+color: green;
+}
+
+#google_translate_element{
+display: block !important;
+position: absolute;
+right: 68vh;
+top: -2vh;
+}
+.goog-te-banner-frame{
+z-index: 0 !important;
+}
+.goog-te-banner{
+display: none !important;
+border: none !important;
+}
+.goog-te-gadget-icon{
+background-image: none !important;
+}
+.goog-te-button button{
+z-index: 999 !important;
+}
+.goog-te-gadget{
+color: #fff;
+}
+.goog-te-gadget .goog-te-combo{
+height: 22px;
+border-radius: 5px;
+}
+.VIpgJd-suEOdc{
+display: none !important;
+visibility: hidden !important;
+}
+#originelanguage{
+display: none;
+}
+.namestaff{
+margin-top: 15px;
+margin-bottom: 15px;
+font-weight: bold;
+}
+.poststaff{
+font-weight: bold;
+font-style: italic;
+text-decoration: underline;
+}
+.ql-tooltip > input{
+display: none !important;
+}
+a{
+color:#0a50b3;
+}
+a:hover{
+color:#df0000;
+cursor: pointer;
+}
+.description{
+margin-top: -40px;
+}
+.down-content {
+height: fit-content;
+}
+.headercontentmenu {
+margin-top: -45px;
+}
+.staffgrid{
+height: auto !important;
+}
+.titlebanner{
+  width: 50% !important;
+}
+.menucontentdesc{
+  display: flex !important;
+}
+
+@media (max-width: 991px) {
+.classwhatsapp{
+  right: 5vh;
+}
+#google_translate_element{
+  right: 26vh;
+  top: 1vh;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
