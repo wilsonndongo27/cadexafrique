@@ -76,8 +76,8 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="item">
-                <h3>Nous vous offrons </h3>
-                <p>Des services professionnels pour mettre en avant votre rentabilité sur le marché internationnal</p>
+                <h3>Nos Services et Produits  </h3>
+                <p>Nous vous offrons des services professionnels pour mettre en avant votre rentabilité sur le marché internationnal</p>
                 <div class="main-button-red">
                   <div><a href="#" onclick="AllService()"><i class="fa fa-arrow-right"></i> Voir plus</a></div>
               </div>
